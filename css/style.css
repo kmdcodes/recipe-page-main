@@ -6,8 +6,28 @@
 
 body{
     background-color: var(--background-main);
-    font-family: 'young-serif', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     display: grid;
     place-items: center;
+    
+}
+
+
+h1, h2, h3{
+    font-family: 'young-serif';
+}
+
+
+
+/* Recipe article styles begin here */
+.card{
+    background : var(--background-white);
+    width:50rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius : 1rem;
+    overflow: hidden;
+
+    /* transform: translateY(-50%); */
 }
