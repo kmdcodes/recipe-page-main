@@ -8,6 +8,7 @@ body{
     background-color: var(--background-main);
     font-family: 'Outfit', sans-serif;
     font-size: 1rem;
+    color: var(--text-black);
     display: grid;
     place-items: center;
     
@@ -15,19 +16,107 @@ body{
 
 
 h1, h2, h3{
-    font-family: 'young-serif';
+    font-family: 'young-serif', serif;
 }
 
+/*Styles to control how the contents of a list appears begin here. 
+    The aim is to allow the bullets or numbering have different styles and
+    to also create even spacing between the text and bullets */
+ul, ol{
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    list-style : none; /*Removes bullets and numbering */
+}
 
+ul li, ol li {
+    margin: 1rem 0;
+    position: relative;
+    padding-left: 2.5em;
+    /* text-indent: 1em; /*Creates space between the text and bullet */
+}
+
+ol li {
+    counter-increment: my-counter;
+}
+
+ul li::before{
+    content : '•';
+    font-size: 1.2em;
+    position : absolute;
+    left : 0 ;
+}
+
+ol li::before{
+    content : counter(my-counter) ".";
+    /* font-size: 1.2em; */
+    position : absolute;
+    left : 0 ;
+
+    color : var(--text-brown);
+    font-weight: 600;
+}
+/* Styling for lists ends here */
 
 /* Recipe article styles begin here */
 .card{
     background : var(--background-white);
-    width:50rem;
+    width:45rem;
     margin-top: 10%;
     margin-bottom: 10%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
     border-radius : 1rem;
     overflow: hidden;
 
+    justify-content: center;
+    /* align-items: center; */
     /* transform: translateY(-50%); */
+}
+
+.article-header{
+    width: auto;
+    border-radius: 1rem;
+    padding-bottom: 0.4rem;
+    overflow: hidden;
+}
+
+.article-header > * {
+    margin-bottom : 1rem;
+}
+
+.article-header > img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.page-title{
+    font-size: 2.2rem;
+    color: var(--text-black);
+}
+
+/* The styles for the aside box begins here */
+aside{
+    background-color: var(--background-pink);
+    padding: 1.5rem;
+}
+
+
+aside > h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    font-weight:600;
+    color: var(--text-rose);
+}
+
+section h2{
+    font-size: 1.8rem;
+    color: var(--text-brown);
+    margin-bottom: 1rem;
+}
+
+
+.emph{
+    font-weight: 700;
 }
