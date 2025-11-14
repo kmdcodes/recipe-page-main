@@ -19,6 +19,22 @@ h1, h2, h3{
     font-family: 'young-serif', serif;
 }
 
+table{ 
+    width: 100%;
+    border-collapse : collapse;
+    }
+
+td, th{
+    width : 50%;
+    border-bottom : 1px solid color-mix(in srgb, var(--text-grey-black) 30%, transparent);
+    padding : 0.8rem 0.5rem;
+    
+}
+
+tr:last-child td{
+    border-bottom : none;
+}
+
 /*Styles to control how the contents of a list appears begin here. 
     The aim is to allow the bullets or numbering have different styles and
     to also create even spacing between the text and bullets */
@@ -56,14 +72,6 @@ ol li::before{
     font-weight: 600;
 }
 /* Styling for lists ends here */
-
-table, td, th {
-    border-style : none;
-    border-bottom: solid 1px var(--text-black);
-    width: 100%;
-    justify-content: left;
-}
-
 
 /* Recipe article styles begin here */
 .card{
@@ -120,7 +128,8 @@ aside > h2{
 
 section{
     border-bottom: 1px solid color-mix(in srgb, var(--text-grey-black) 30%, transparent);
-    margin-bottom: 1rem;
+    margin-bottom: 1.rem;
+    padding: 0.5rem 0 ;
 }
 
 section h2{
@@ -132,6 +141,9 @@ section h2{
 
 .emph{
     font-weight: 700;
+}
+.qty{
+    color : var(--text-brown);
 }
 
 
