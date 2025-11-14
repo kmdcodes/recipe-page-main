@@ -14,7 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -24,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 This is a Frontend Mentor challenge on HTML and CSS that deals with designing a of a recipe page. It is aimed at testing one's skill on how to create responsive webpages with focus on semantic HTML.
 
-Here I decided to approach this challenge adding my own style of hover and focus effects while also trying my possible best to ensure it replicates the original design. This was accomplished with ease as I made use of Grid Layout and also did a little bit of improvisaation. 
+This time aarounf I decided to approach this challenge  by doing away with the extra parent div container element I usually used in applying the center alignment effect and and applied those styles to the body tag instead. I wanted to experiment how it will appear and considering the fact that the whole challenge is a test on semantic HTML, using fewer to none div containers is better in my own opinion.  
 
 ### Screenshot
 ![Desktop view of the page](./desktop-view.png)
@@ -95,27 +94,19 @@ tr:last-child td{
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I did not experiment with much of the areas, I wanted to improve on as I was focused on making my design to closely replicate the design files. 
+However, I did utilise previously learned concepts such as custom properties, custom fonts, optimise way of using the grid and flexbox display to align contents. 
+For an area of continued development I will like to work on how to better adding transitions to my styles making it smoother, more efficient and more sleek.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Microsoft Copilot](https://copilot.microsoft.com/) - This tool as always, was of tremendous use to me and the completion of the challenge as it acts as a partner and support when I run out of ideas from trying to figure out to do a certain task or my brainstorming hits rock bottom. It acts as a tool to help reawakening my creativity and productivity by helping me answer questions concerning confusing areas. I recommend you make use of Microsoft Copilot too. Its a great tool.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+K.M. Daniel
+- Frontend Mentor - [@kmdcodes](https://www.frontendmentor.io/profile/kmdcodes)
+- Twitter - [@kmdbank](https://x.com/kmdbank)
+- Facebook - [@kmdbank](https://facebook.com/kmd4life)
