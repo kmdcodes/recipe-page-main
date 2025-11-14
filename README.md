@@ -36,7 +36,7 @@ The screenshot do not show the entire contents of the page as the page span over
 ### Links
 
 - Solution URL: [GitHub](https://github.com/kmdcodes/recipe-page-main)
-- Live Site URL: [Vercel](hhttps://recipe-page-main-ten-azure.vercel.app/)
+- Live Site URL: [Vercel](https://recipe-page-main-ten-azure.vercel.app/)
 
 ## My process
 
